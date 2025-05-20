@@ -1,0 +1,98 @@
+/* Reset Default Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the Entire Page */
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Amazon Logo Styling */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Registration Box */
+.register-box {
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+    text-align: left;
+}
+
+/* Heading */
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Form Labels */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Verify Button */
+.verify-btn {
+    width: 100%;
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.verify-btn:hover {
+    background-color: #e6b800;
+}
+
+/* Password Info */
+.info-text {
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Account Links */
+.business-account, .signin-link, .terms {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.business-account a, .signin-link a, .terms a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.business-account a:hover, .signin-link a:hover, .terms a:hover {
+    text-decoration: underline;
+}

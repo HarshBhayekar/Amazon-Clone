@@ -1,0 +1,139 @@
+/* Sign_In_Page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Amazon Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.signin-box {
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label a {
+    font-size: 12px;
+    float: right;
+    text-decoration: none;
+    color: #0066c0;
+}
+
+.signin-btn {
+    width: 100%;
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.signin-btn:hover {
+    background-color: #e6b800;
+}
+
+.keep-signed {
+    display: flex;
+    align-items: center; /* Align checkbox and text */
+    gap: 5px; /* Add spacing between checkbox and label */
+    font-size: 12px;
+    margin-top: 10px;
+}
+.keep-signed input {
+    width: auto; /* Ensures checkbox does not stretch */
+}
+
+/*  */
+
+.or-divider {
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.otp-btn {
+    width: 100%;
+    background: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.otp-btn:hover {
+    background-color: #f7f7f7;
+}
+
+.new-account {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.new-account a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+footer a {
+    margin: 0 5px;
+    color: #0066c0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot Password - Amazon</title>
+    <link rel="stylesheet" href="forgot_email_input.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/Amazon-Logo.png" alt="Amazon Logo" class="logo">
+        <div class="email-box">
+            <h2>Forgot Password</h2>
+            <p>Enter your email to receive a password reset OTP.</p>
+
+            <label for="email">Enter Email</label>
+            <form action="send_otp.php" method="post">
+                <input type="email" id="email" name="email" class="email-input" placeholder="Enter your email" required>
+                <button type="submit" class="btn">Send OTP</button>
+            </form>
+
+            <a href="SignIn.html" class="back">Back to Login</a>
+        </div>
+    </div>
+
+</body>
+</html>

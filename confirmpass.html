@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Forgot Password</title>
+    <link rel="stylesheet" href="confirmpass.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="images\Amazon-Logo.png" alt="Amazon Logo" class="logo">
+
+
+        <div class="password-box">
+            <h2>Create new password</h2>
+            <p>We’ll ask for this password whenever you <br>Sign-In.</p>
+
+            <form action="reset-password.php" method="POST">
+                <label for="new-password">New password</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <p class="info">Passwords must be at least 6 characters.</p>
+
+                <label for="confirm-password">Re-enter password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+
+                <button type="submit" class="password-btn">Save changes and Sign-In</button>
+            </form>
+        </div>
+
+        <footer>
+            <center><p style="margin-bottom: 5px;"><a href="#">Conditions of Use</a> <a href="#">Privacy Notice</a> <a href="#">Help</a></p></center>
+           <center> <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p></center>
+        </footer>
+    </div>
+
+</body>
+</html>

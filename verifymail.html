@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify Email - Amazon</title>
+    <link rel="stylesheet" href="verifymail.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/Amazon-Logo.png" alt="Amazon Logo" class="logo">
+        <div class="otp-box">
+            <h2>Verify Email Address</h2>
+            <p>Enter the OTP we sent to your email.</p>
+
+            <label for="otp">Enter OTP</label>
+            <form action="verifymail.php" method="post">
+                <input type="text" id="otp" name="otp" class="otp-input" placeholder="Enter OTP" required>
+                <button type="submit" class="btn">Verify & Create Account</button>
+            </form>
+
+            <a href="resend_otp.php" class="resend">Resend OTP</a>
+
+        </div>
+    </div>
+
+</body>
+</html>

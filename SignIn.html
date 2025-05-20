@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone - Sign In</title>
+    <link rel="stylesheet" href="singnin.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="images\Amazon-Logo.png" alt="Amazon Logo" class="logo">
+
+
+        <div class="signin-box">
+            <h2>Sign in</h2>
+
+            <form action="signin.php" method="POST">
+                <label for="email">Email or mobile phone number</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="password">Password <a href="forgot_email_input.html">Forgot password?</a></label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit" class="signin-btn">Sign in</button>
+
+                <div class="keep-signed">
+                    <input type="checkbox" id="keep-signed">
+                    <label for="keep-signed">Keep me signed in. 
+                </div>
+
+                <div class="or-divider">
+                    <span>or</span>
+                </div>
+
+                <button class="otp-btn">Get an OTP on your phone</button>
+            </form>
+
+            <p class="new-account">New to Amazon? <a href="Registration.html">Create your Amazon account</a></p>
+        </div>
+<hr>
+        <footer>
+            <p><a href="#">Conditions of Use</a> <a href="#">Privacy Notice</a> <a href="#">Help</a></p>
+            <p>© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered OTP Box */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+/* Amazon Logo */
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* OTP Box */
+.otp-box {
+    width: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+/* Headings & Text */
+.otp-box h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.otp-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+.otp-box a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+.otp-box a:hover {
+    text-decoration: underline;
+}
+
+/* OTP Input */
+.otp-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+.btn {
+    width: 100%;
+    background-color: #ffd814;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #f7ca00;
+}
+
+/* Terms */
+.terms {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Resend OTP */
+.resend {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+footer a {
+    margin: 0 10px;
+    font-size: 14px;
+    color: #0066c0;
+}
+
+footer p {
+    font-size: 12px;
+    color: #555;
+    margin-top: 5px;
+}
